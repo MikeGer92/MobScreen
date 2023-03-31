@@ -26,5 +26,12 @@ export default {
     width: 100%;
     max-width: 335px;
     background: #FDFFFF;
+    display: flex;
+    justify-content: flex-start;
+    padding: 19px 25px 18px 15px;
+    &__icon {
+        width: 20px;
+
+    }
 }
 </style>

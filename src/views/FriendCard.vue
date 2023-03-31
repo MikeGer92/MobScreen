@@ -102,6 +102,7 @@ export default {
     width: 100%;
     background: #2C2C2C;
     border-radius: 40px 40px 0 0;
+    padding-bottom: 111px;
   }
   &__bar {
     display: flex;
@@ -145,6 +146,25 @@ export default {
       }
 
     }
+  }
+  &__wish {
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    margin: 41px 20px 10px 20px;
+    filter: drop-shadow(0px 20px 120px rgba(35, 35, 35, 0.05));
+    backdrop-filter: blur(25px);
+    border-radius: 15px
+  }
+  &__other {
+    display: flex;
+    flex-direction: column;
+    // margin: 41px 20px 10px 20px;
+    filter: drop-shadow(0px 20px 120px rgba(35, 35, 35, 0.05));
+    backdrop-filter: blur(25px);
+  }
+  &__bottom {
+    background: #F5F5F5;
   }
 }
 
